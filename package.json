@@ -9,7 +9,7 @@
   "main": "index.js",
   "author": "Ham Chao",
   "license": "MIT",
-  "devDependencies": {
+  "peerDependencies": {
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.7.0",
