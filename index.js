@@ -7,6 +7,8 @@ module.exports = {
       'error',
       { functions: false, classes: true, variables: true }
     ],
-    'no-underscore-dangle': 'off'
+    'no-underscore-dangle': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/react-in-jsx-scope': 'off'
   }
 }
