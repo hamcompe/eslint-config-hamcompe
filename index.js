@@ -17,6 +17,7 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     'import/prefer-default-export': 'off',
     'react/prefer-stateless-function': 'off',
-    'react/sort-comp': 'off'
+    'react/sort-comp': 'off',
+    'react/no-did-mount-set-state': 'off'
   }
 }
