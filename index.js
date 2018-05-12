@@ -18,6 +18,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/prefer-stateless-function': 'off',
     'react/sort-comp': 'off',
-    'react/no-did-mount-set-state': 'off'
+    'react/no-did-mount-set-state': 'off',
+    'react/no-array-index-key': 'off'
   }
 }
