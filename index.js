@@ -29,6 +29,16 @@ module.exports = {
     'react/require-default-props': 0,
     'react/forbid-prop-types': 0,
     'jsx-a11y/anchor-is-valid': 0,
-    'jsx-a11y/accessible-emoji': 0
+    'jsx-a11y/accessible-emoji': 0,
+    'jsx-a11y/label-has-for': [
+      2,
+      {
+        components: ['Label'],
+        required: {
+          every: ['nesting', 'id']
+        },
+        allowChildren: true
+      }
+    ]
   }
 }
