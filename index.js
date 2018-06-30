@@ -39,6 +39,8 @@ module.exports = {
         },
         allowChildren: true
       }
-    ]
+    ],
+    'import/no-dynamic-require': 0,
+    'global-require': 0
   }
 }
