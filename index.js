@@ -2,15 +2,15 @@ module.exports = {
   extends: 'airbnb',
   env: {
     browser: true,
-    jest: true
+    jest: true,
   },
   parser: 'babel-eslint',
   rules: {
     semi: ['error', 'never'],
-    'no-param-reassign': ['error', { props: false }],
+    'no-param-reassign': ['error', {props: false}],
     'no-use-before-define': [
       'error',
-      { functions: false, classes: true, variables: true }
+      {functions: false, classes: true, variables: true},
     ],
     'no-underscore-dangle': 0,
     'react/jsx-filename-extension': 0,
@@ -35,12 +35,16 @@ module.exports = {
       {
         components: ['Label'],
         required: {
-          every: ['nesting', 'id']
+          every: ['nesting', 'id'],
         },
-        allowChildren: true
-      }
+        allowChildren: true,
+      },
     ],
     'import/no-dynamic-require': 0,
-    'global-require': 0
-  }
+    'global-require': 0,
+    'react/jsx-one-expression-per-line': 0,
+    'object-curly-spacing': 0,
+    'array-bracket-spacing': 0,
+    'computed-property-spacing': 0,
+  },
 }
