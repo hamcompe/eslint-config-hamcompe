@@ -1,4 +1,4 @@
-# Ham Compe JavaScript Style Guide
+# HamComPe JavaScript Style Guide
 
 ## Installation
 
